@@ -1,0 +1,58 @@
+.myBg {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url("../images/bg.png");
+    background-size: cover;
+}
+
+.intro {
+    height: 350px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+}
+
+.trending {
+    height: auto;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url("../images/bgcars.jpg");
+    background-size: cover;
+}
+
+.movieImage {
+    height: auto;
+    background-color: white;
+    margin: 20px 40px 20px 40px;
+    padding: 5px;
+}
+
+.marveldc {
+    height: auto;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url("../images/bgtoy.jpg");
+    background-size: cover;
+}
+
+.filmImage {
+    /* width: 200px; */
+    height: 400px;
+}
+
+.foot {
+    line-height: 0;
+    font-weight: bold;
+}
